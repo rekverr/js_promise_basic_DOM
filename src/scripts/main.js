@@ -27,7 +27,7 @@ promise1.then((data) => {
 promise2.catch((err) => {
   const div = document.createElement('div');
 
-  div.classList.add('message error-message');
+  div.classList.add('error-message');
 
   div.innerText = err;
 
